@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@300;400;500;600&display=swap');
+
+.Information{
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    /* width: 182px; */
+    height: 275px;
+    border-radius: 5px;
+    gap: 0.5rem;
+    font-family: 'Lobster','cursive';
+    margin-top: 10px;
+    flex-basis: 350px;
+    cursor: pointer;
+    /* flex-wrap: wrap; */
+    /* gap: 10px; */
+    
+    
+
+    
+   
+}
+
+.Container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* margin-top: 5px; */
+    
+    
+
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+   align-items: center;
+}
+
+
+.image-container{
+    text-align: center;
+}
+
+.team{
+    text-align: center;
+}
+
+select{
+    width: 20rem;
+}
+
+.standout{
+  
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+        /* width: 182px; */
+    height: 275px;
+    border-radius: 5px;
+    gap: 0.5rem;
+    font-family: 'Lobster', 'cursive';
+    margin-top: 10px;
+    flex-basis: 350px;
+}
